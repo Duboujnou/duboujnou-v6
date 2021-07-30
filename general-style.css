@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Space Mono';
+    src: url('fonts/SpaceMono-Regular.ttf');
+}
+
+body{
+  font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff;
+    transition: all 0.2s;
+ }
+
+
+
+h1{
+    size: 20%;
+    text-align: left;
+    transition: all 0.2s;
+}
+
+ .discord {
+    text-decoration: none;
+  }
+
+.title {
+    transition: all 0.2s;
+}
+
+a:hover, .title:hover, h1:hover {
+    -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+}
+
+h2,h3,h5,h6,p,form,option,.content{
+    text-align: left;
+}
+
+h3{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+.pp {
+    height: 54px !important;
+    width: 55px !important;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+  }
+  
+
+#styleselect * {
+    transition: all 0.2s;
+    color:#2a2a2a;
+  }
+  
+  #styleselect *:nth-child(1) {
+    color: #ff4f12;
+  }
+  
+  #styleselect *:nth-child(2) {
+    color: #ffa409;
+  }
+  
+  #styleselect *:nth-child(3) {
+    color: #cc09ff;
+  }
+
+  select {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+  }

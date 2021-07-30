@@ -1,0 +1,55 @@
+body {
+  background: #ffef18;
+  background: linear-gradient(90deg, #ffef18 0%, #ff8800 91%);
+}
+
+a {
+  color: #2a2a2a;
+}
+
+h1{
+  color: #2a2a2a;
+}
+
+a:hover, .title:hover, h1:hover {
+    background-image: linear-gradient(90deg,#ff8800,#ffef18);
+}
+
+h2,h3,h5,h6,p,form,option,.content{
+  color: #2a2a2a;
+}
+h3{
+  color: #2a2a2a;
+}
+.content{
+  color: #2a2a2a;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+img{
+  width:70%;
+}
+
+.content{
+  box-shadow: 0 0 2px hsla(0, 0%, 0%, 0.1);
+  margin: 5% 10%;
+  transition: all 0.2s cubic-bezier(0.7, 0.2, 0.17, 1);
+}
+
+.content:hover{
+  transform: scale(1.05);
+  box-shadow: 0 46px 12px -16px hsla(0, 0%, 0%, 0.05);
+}
+
+code {
+  color: #ffffff;
+
+  padding: 2px 2px;
+
+  background-image: linear-gradient(90deg,#ff8800,#ffc918);
+
+  border-radius: 2px;
+}
